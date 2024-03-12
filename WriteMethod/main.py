@@ -94,7 +94,7 @@ st.write(chart)
 
 # PIL Image example
 st.header(" PIL Image example")
-image = Image.open(r"C:\Users\chara\OneDrive\Pictures\Naruto\narutoandjiraya.jpg")
+image = Image.open(r"WriteMethod/narutoandjiraya.jpg")
 st.write(image)
 
 # Keras model example
