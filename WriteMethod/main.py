@@ -9,6 +9,19 @@ import graphviz
 import plotly.graph_objects as go
 from bokeh.plotting import figure
 from sympy import symbols, Eq
+import time
+name="contactme->charanguvvala8@gmail.com"
+def stream_data():
+    for i in name:
+        yield i
+        time.sleep(0.02)
+col1,col2= st.columns([2,2])  # Adjust column ratios as needed
+with col1:
+    "     "
+with col2:
+    if st.button("Author"):
+        st.write_stream(stream_data)
+        time.sleep(0.02)
 st.title("This are some text Examples using write method")
 # """ FUNCTION SIGNATURE """
 # st.write(*args, unsafe_allow_html=False, **kwargs) #
