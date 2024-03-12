@@ -29,7 +29,7 @@ st.write("Here's an emoji: :smile:")
 #"Example: Coloured Text"
 st.write("This text is <span style='color:red;'>red</span>.")
 st.header(" This a sample DataFrame using write method")
-dt = pd.read_csv(r"C:\Users\chara\Downloads\SampleCSVFile_11kb.csv", encoding='latin1')
+dt = pd.read_csv(r"WriteMethod/SampleCSVFile_11kb.csv", encoding='latin1')
 st.write(dt)
 st.header("Dictionary")
 # Define a dictionary
