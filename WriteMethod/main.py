@@ -9,7 +9,6 @@ import graphviz
 import plotly.graph_objects as go
 from bokeh.plotting import figure
 from sympy import symbols, Eq
-from openai import Stream
 st.title("This are some text Examples using write method")
 # """ FUNCTION SIGNATURE """
 # st.write(*args, unsafe_allow_html=False, **kwargs) #
@@ -73,14 +72,14 @@ class MyClass:
 st.write(MyClass)
 
 # Matplotlib figure example
-st.header("Matplotlib")
+st.header("Matplotlib figure example")
 fig, ax = plt.subplots()
 ax.plot([1, 2, 3], [4, 5, 6])
 st.write(fig)
 
 
 # Generator example
-st.header("Generator")
+st.header("Generator example")
 def my_generator():
     for i in range(5):
         yield i
